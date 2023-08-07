@@ -1,2 +1,2 @@
 # Math-Quiz-Game
-generates random addition problems, times your response, and displays the score. Alarm stops the game after 20 seconds.
+A simple math quiz game where the user is prompted to add two random numbers between 1 and 1000. The user has a time limit of 20 seconds to answer each question. If the user answers correctly, the program displays "Great!" and increments a counter to keep track of their score. If the user's answer is incorrect, the program displays the correct answer. The game continues until the alarm signal goes off after 20 seconds, at which point the program displays the user's final score and terminates. The code uses signals (signal.h) to set up an alarm signal handler to handle the time limit.
